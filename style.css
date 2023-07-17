@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@700&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+ }
+
+ /* Nav style  */
+
+ .nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 8em;
+ }
+
+ .nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+ nav ul{
+    display: flex;
+    list-style-type: none;
+ }
+ nav ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+ }
+
+
+ /* responsive designs */
+
+ /* for mobile or small devices */
